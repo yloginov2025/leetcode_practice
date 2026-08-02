@@ -17,4 +17,10 @@ public class MainTets {
         Assertions.assertEquals(2, main.divide(6, 3), "6 / 3 should equal 2");
     }
 
+    @Test
+    void testDivideAgain() {
+        Main main = new Main();
+        Assertions.assertEquals(1, main.divide(6, 6), "6 / 6 should equal 1");
+    }
+
 }
